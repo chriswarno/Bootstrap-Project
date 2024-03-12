@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta title="Beetroot Juice">
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    </head>
+    <body>
+        <header class="container-fluid p-5 bg-primary">
+            <h1 class="text-center">Dietary Nitrates</h1>
+        </header>
+        <nav class="navbar sticky-top navbar-expand-sm bg-primary navbar-dark">
+            <ul class="nav">
+                <li class="nav-item"><a class="nav-link text-dark" href="home.html">Home</a> </li>
+                <li class="nav-item"><a class="nav-link text-dark" href="about.html">About Me</a> </li>
+                <li class="nav-item"><a class="nav-link text-dark" href="caffeine.html">Caffeine</a> </li>
+                <li class="nav-item"><a class="nav-link text-dark" href="bicarb.html">Sodium Bicarbonate</a> </li>
+                <li class="nav-item"><a class="nav-link active text-dark" href="beet.html">Dietary Nitrates</a> </li>
+                <li class="nav-item"><a class="nav-link text-dark" href="ketones.html">Ketones</a> </li>
+                <li class="nav-item"><a class="nav-link text-dark" href="form.html">Questions</a> </li>
+            </ul>
+        </nav>
+        <main class="row pt-5 align-items-center">
+            <p class="col-md-6">Dietary nitrates, are most commonly found in beets and beetroot juice. There are benefits to both chronic, ingesting nitrates for a few days leading up to an event, and acute, ingesting nitrates the day of an event, can improve performance. Dietary nitrates can improve exercise economy, how efficiently the body exercise, and exercise capacity. Dietary nitrates work best for sports that are primaraly aerobic, such as cycling or running.</p>
+            <div id="beet" class="carousel slide col-md-5" data-bs-ride="carousel"> <!--Carousel-->
+                <div class="carousel-indicators"> <!--Indicators-->
+                    <button type="button" data-bs-target="#beet" data-bs-slide-to="0" class="active text-primary"></button>
+                    <button type="button" data-bs-target="#beet" data-bs-slide-to="1"></button>
+                </div>
+                <div class="carousel-inner"> <!--The images-->
+                    <div class="carousel-item active">
+                        <img src="images/beetroot.jpg" class="img-fluid" alt="Picture of a beet">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="images/beetjuice.webp" alt="Picture of a beetjuice shot" class="img-fluid">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#beet" data-bs-slide="prev"> <!--Previous button-->
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#beet" data-bs-slide="next"> <!--Next button-->
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+            </div>
+        </main>
+        <footer class="container-fluid p-3 bg-primary fixed-bottom">
+            <h5>Image Sources</h5>
+            <a href="https://www.healthline.com/nutrition/benefits-of-beets" class="text-dark">Carousel image 1</a><br>
+            <a href="https://www.beet-it.us/" class="text-dark">Carousel image 2</a>
+        </footer>
+    </body>
+</html>

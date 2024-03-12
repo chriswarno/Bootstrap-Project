@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta title="Caffeine">
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    </head>
+    <body class="d-flex flex-column h-100">
+        <header class="container-fluid p-5 bg-primary">
+            <h1 class="text-center">Caffeine</h1>
+        </header>
+        <nav class="navbar sticky-top navbar-expand-sm bg-primary navbar-dark mb-5">
+            <ul class="nav">
+                <li class="nav-item"><a class="nav-link text-dark" href="home.html">Home</a> </li>
+                <li class="nav-item"><a class="nav-link text-dark" href="about.html">About Me</a> </li>
+                <li class="nav-item"><a class="nav-link active text-dark" href="caffeine.html">Caffeine</a> </li>
+                <li class="nav-item"><a class="nav-link text-dark" href="bicarb.html">Sodium Bicarbonate</a> </li>
+                <li class="nav-item"><a class="nav-link text-dark" href="beet.html">Dietary Nitrates</a> </li>
+                <li class="nav-item"><a class="nav-link text-dark" href="ketones.html">Ketones</a> </li>
+                <li class="nav-item"><a class="nav-link text-dark" href="form.html">Questions</a> </li>
+            </ul>
+        </nav>
+        <main class="container-fluid row align-items-center min-height-100vh mb-5">
+            <p class="col-sm-6">Caffeine is one the most used performance enhanching supplements. There have been many studies done that prove caffeine is one of the most effective legal performance enhancing supplements. Caffeine can reduce the feeling of fatigue giving athletes a mental advantage. Caffeine works best when taken within an hour before hard training or competition.</p>
+            <div id="caf" class="carousel slide col-md-5" data-bs-ride="carousel"> <!--Carousel-->
+                <div class="carousel-indicators"> <!--Indicators-->
+                    <button type="button" data-bs-target="#caf" data-bs-slide-to="0" class="active text-primary"></button>
+                    <button type="button" data-bs-target="#caf" data-bs-slide-to="1"></button>
+                    <button type="button" data-bs-target="#caf" data-bs-slide-to="2"></button>
+                </div>
+                <div class="carousel-inner"> <!--The images-->
+                    <div class="carousel-item active">
+                        <img src="images/redbull.webp" class="img-fluid" alt="Infographic of a Red Bull showing that caffeine is in the drink">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="images/cafpill.webp" alt="Picture a bottle of caffeine pills" class="img-fluid">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="images/pidcock.avif" alt="Cyclist drinking a Red Bull" class="img-fluid">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#caf" data-bs-slide="prev"> <!--Previous button-->
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#caf" data-bs-slide="next"> <!--Next button-->
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+            </div>
+        </main>
+        <footer class="container-fluid p-3 bg-primary absolute-bottom mt-5">
+            <h5>Image Sources</h5>
+            <a href="https://www.walmart.com/ip/Red-Bull-Energy-Drink-20-fl-oz-Can/128723944" class="text-dark">Carousel image 1</a><br>
+            <a href="https://www.prozis.com/us/us/prozis/caffeine-100mg-60-caps?ot=GAUSMAXP&utm_campaign=GAUSMAXPOTHERSTATESSUPPLEMENTS&campaignid=20046021973&adgroupid=&keyword=&placement=&utm_source=PRZGAUS&gad_source=1&gclid=Cj0KCQiA67CrBhC1ARIsACKAa8S4kSi1OE1DA68BvxX3oocoFNGaYGYOM4Kr-CJK6jvpomN-AFPDSrcaAqFIEALw_wcB" class="text-dark">Carousel image 2</a><br>
+            <a href="https://www.redbull.com/bg-bg/tom-pidcock-cycling-training-routine" class="text-dark">Carousel image 3</a>
+            
+        </footer>
+    </body>
+</html>
